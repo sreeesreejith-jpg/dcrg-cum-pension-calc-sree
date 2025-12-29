@@ -167,8 +167,14 @@
 }
 
 .main-content-padding {
-    padding-top: 240px !important;
-    /* Offset for sticky header */
+    padding-top: 300px !important;
+    /* Extra large offset to prevent overlapping on any device */
+}
+
+@media (max-width: 400px) {
+    .main-content-padding {
+        padding-top: 340px !important;
+    }
 }
 
 * {
