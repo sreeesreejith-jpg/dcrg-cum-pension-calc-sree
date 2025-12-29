@@ -167,13 +167,20 @@
 }
 
 .main-content-padding {
-    padding-top: 300px !important;
-    /* Extra large offset to prevent overlapping on any device */
+    padding-top: 180px !important;
+    /* Smaller offset for laptops/desktops */
+}
+
+@media (max-width: 600px) {
+    .main-content-padding {
+        padding-top: 260px !important;
+        /* Larger offset for mobile where dashboard is taller */
+    }
 }
 
 @media (max-width: 400px) {
     .main-content-padding {
-        padding-top: 340px !important;
+        padding-top: 280px !important;
     }
 }
 
