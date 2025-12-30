@@ -1,38 +1,18 @@
 {
-    "id": "kerala-pension-calc",
+    "id": "kerala-pension-calc-v3",
     "name": "Kerala Pension & DCRG Calculator",
     "short_name": "Pension Calc",
     "description": "Professional calculator for Kerala Government Pension and DCRG benefits.",
-    "start_url": "index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#0f172a",
     "theme_color": "#2563eb",
     "icons": [
         {
-            "src": "icons/icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/icon-512.png",
+            "src": "app-icon.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "icons/icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
-        }
-    ],
-    "prefer_related_applications": false,
-    "shortcuts": [
-        {
-            "name": "Calculate Pension",
-            "url": "index.html",
-            "description": "Start a new calculation"
+            "purpose": "any maskable"
         }
     ]
 }
